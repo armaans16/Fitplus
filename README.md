@@ -7,7 +7,7 @@ The latest and most complete version is **Version 2**, located inside the `V2/` 
 
 ---
 
-## ✨ Features at a Glance
+## Features at a Glance
 
 <table>
 <tr>
@@ -61,11 +61,35 @@ python main.py
 ## 🔧 Requirements
 
 - Python 3.10+
-- Install required libraries:
+- Install external libraries:
 
 ```bash
-pip install customtkinter
+pip install customtkinter CTkMessagebox CTkScrollableDropdown CTkXYFrame Pillow pywinstyles pygame
 ```
+
+---
+
+---
+
+## 📚 Libraries Used
+
+### Built-in Python Libraries
+- `tkinter`, `ttk`, `Label`, `simpledialog` – for GUI components
+- `sqlite3` – database management
+- `webbrowser` – open URLs in the browser
+- `random` – random number generation
+- `datetime` – date and time handling
+- `os`, `sys`, `pathlib` – file and system operations
+- `logging` – logging functionality
+
+### External Libraries
+- `customtkinter` – modern themed Tkinter widgets
+- `CTkMessagebox` – custom message boxes for Tkinter
+- `CTkScrollableDropdown` – scrollable dropdown menus
+- `CTkXYFrame` – advanced frame handling for Tkinter
+- `Pillow (PIL)` – image processing and handling
+- `pywinstyles` – Windows-specific UI enhancements
+- `pygame` – sound and multimedia
 
 ---
 
@@ -87,24 +111,7 @@ Fitplus/
 
 ---
 
-## 📸 Detailed Screenshots
-
-<table>
-<tr>
-<td><img src="V2/screenshots/authentication.jpg" width="400"><br><b>Authentication Screen</b></td>
-<td><img src="V2/screenshots/caloriecounter.jpg" width="400"><br><b>Calorie Counter</b></td>
-</tr>
-<tr>
-<td><img src="V2/screenshots/meals.jpg" width="400"><br><b>Meals Section</b></td>
-<td><img src="V2/screenshots/progress.jpg" width="400"><br><b>Progress Tracking</b></td>
-</tr>
-<tr>
-<td colspan="2" align="center"><img src="V2/screenshots/workouts.jpg" width="500"><br><b>Workout Plans</b></td>
-</tr>
-</table>
-
----
 
 ## 📃 License
 
-This is a personal project. No license currently applied.
+This project is licensed under the [MIT License](LICENSE).
