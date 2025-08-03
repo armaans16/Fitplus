@@ -1,2 +1,1 @@
 *.db linguist-language=SQL
-*.sqlite linguist-language=SQL
